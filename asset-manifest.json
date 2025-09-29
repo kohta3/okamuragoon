@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/okamuragoon/static/css/main.86e66c99.css",
+    "main.js": "/okamuragoon/static/js/main.0a3c41b0.js",
+    "static/js/453.e5d39afd.chunk.js": "/okamuragoon/static/js/453.e5d39afd.chunk.js",
+    "static/media/profile.jpg": "/okamuragoon/static/media/profile.79c7fe3016e85e39ad95.jpg",
+    "index.html": "/okamuragoon/index.html",
+    "main.86e66c99.css.map": "/okamuragoon/static/css/main.86e66c99.css.map",
+    "main.0a3c41b0.js.map": "/okamuragoon/static/js/main.0a3c41b0.js.map",
+    "453.e5d39afd.chunk.js.map": "/okamuragoon/static/js/453.e5d39afd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86e66c99.css",
+    "static/js/main.0a3c41b0.js"
+  ]
+}
