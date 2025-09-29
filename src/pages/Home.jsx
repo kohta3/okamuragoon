@@ -156,11 +156,11 @@ const PersonalSection = () => (
     <h2>Personal</h2>
     <div className="personal-grid">
       {[
-        { title: 'Preblo', logo: '/logo/preblo.png', desc: 'Laravelで作った旅行先の投稿サイト（現在はクローズ）' },
-        { title: 'ふらっとりっぷ', logo: '/logo/furatrip.png', desc: 'Flutterの観光地投稿共有アプリ（配信終了）' },
-        { title: 'inkly', logo: '/logo/inkly_logo.png', desc: 'Laravel × Reactのブログプラットフォーム', link: 'https://inkly.jp/' },
-        { title: 'おうちログ', logo: '/logo/outilog.png', desc: '家計簿・スケジュール・買い物リストを家族で共有するアプリ', link: 'https://apps.apple.com/us/app/%E3%81%8A%E3%81%86%E3%81%A1%E3%83%AD%E3%82%B0/id6752274163' },
-        { title: 'フォトログ', logo: '/logo/photolog.png', desc: 'シンプルで高速な画像・動画表示ツール（作成途中）' },
+        { title: 'Preblo', logo: `${process.env.PUBLIC_URL}/logo/preblo.png`, desc: 'Laravelで作った旅行先の投稿サイト（現在はクローズ）' },
+        { title: 'ふらっとりっぷ', logo: `${process.env.PUBLIC_URL}/logo/furatrip.png`, desc: 'Flutterの観光地投稿共有アプリ（配信終了）' },
+        { title: 'inkly', logo: `${process.env.PUBLIC_URL}/logo/inkly_logo.png`, desc: 'Laravel × Reactのブログプラットフォーム', link: 'https://inkly.jp/' },
+        { title: 'おうちログ', logo: `${process.env.PUBLIC_URL}/logo/outilog.png`, desc: '家計簿・スケジュール・買い物リストを家族で共有するアプリ', link: 'https://apps.apple.com/us/app/%E3%81%8A%E3%81%86%E3%81%A1%E3%83%AD%E3%82%B0/id6752274163' },
+        { title: 'フォトログ', logo: `${process.env.PUBLIC_URL}/logo/photolog.png`, desc: 'シンプルで高速な画像・動画表示ツール（作成途中）' },
       ].map((p) => (
         <div key={p.title} className="personal-card">
           <div className="personal-logo-wrap">
